@@ -34,7 +34,7 @@ function Quiz() {
       {showScore ? (
         <>
         <div className='image'>
-           <img src={dd}/>
+           <img src={dd}  alt='dd'/>
            </div>
           <h1>Your score is: {score}</h1>
           <button onClick={restartQuiz}>Restart Quiz</button>
